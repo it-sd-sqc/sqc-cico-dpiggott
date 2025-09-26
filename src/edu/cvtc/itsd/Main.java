@@ -9,6 +9,9 @@ import java.util.TimerTask;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.text.*;
+import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
+
 
 // CiCo application's primary class ///////////////////////////////////////////
 public class Main {
@@ -363,6 +366,7 @@ public class Main {
     // Display the GUI ////////////////////////////////////////////////////////
     frame.pack();
     frame.setLocationRelativeTo(null);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
   }
 }
