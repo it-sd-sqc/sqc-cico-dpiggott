@@ -61,4 +61,15 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should display "Developer" for the user name.
 
+# Module 5: Consistency and standards (Ticket 502)
+
+## Test steps
+1. Build and run CiCo.
+2. Close the application window (click the X in the top-right corner on Windows or top-left on macOS).
+
+## Expected results
+* The application should fully quit after step 2.
+* No Java process should remain running in the background.
+
+
 
