@@ -71,5 +71,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 * The application should fully quit after step 2.
 * No Java process should remain running in the background.
 
+# Module 6: Ticket 602
+1. Build and run Cico.
+2. Observe the new color scheme.
+3. Make sure the text is still readble.
+
+## Expected results
+* The app will appear more professional with more neutral colors.
+
 
 
